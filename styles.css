@@ -51,9 +51,10 @@ a {
 
 .right {
     background-color: gray;
-    width: 900px;
+    width: 700px;
     height: 200px;
     text-align: center;
+    margin-left: 30px;
 }
 
 .first button {
@@ -64,6 +65,10 @@ a {
     height: 30px;
     margin-top: 15px;
     border-radius: 5px;
+}
+
+.left {
+    width: 450px;
 }
 
 .second h1 {
@@ -102,4 +107,27 @@ a {
     font-size: 18px;
     color: black;
     margin-top: 5px;
+}
+
+.third {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 600px ;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
+.citation {
+    margin-top: 15px;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 800;
 }
