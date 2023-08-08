@@ -115,7 +115,8 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    padding: 100px 600px ;
+  
+    /* need to fix margin or padding. it changes by size */
 }
 
 .quote {
@@ -123,6 +124,7 @@ a {
     font-style: italic;
     font-weight: lighter;
     color: #1f2937;
+    padding: 100px 500px;
 }
 
 .citation {
@@ -130,4 +132,44 @@ a {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 800;
+    margin-right: 500px;
+
+}
+
+.fourth .container {
+    background-color: #3882f6;
+    display: flex;
+    margin: 100px 300px;
+    padding: 50px 80px;
+    justify-content: space-between;
+    border-radius: 10px;
+    color: white;
+    align-items: center;
+
+}
+
+.fourth .container .text p {
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+.container button {
+    background-color: #3882f6;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+    height: 40px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.fifth {
+    background-color: #1f2937;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
